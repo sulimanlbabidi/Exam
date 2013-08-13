@@ -1,0 +1,28 @@
+package exams;
+import java.util.Scanner;
+public class Exam {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter x : ");
+		int x = input.nextInt();
+		System.out.println("z = " + CompZ(x));
+		
+		
+		
+
+	}
+	
+	static int CompY(int x){
+		return (x*x+2*x+1);
+	}
+	
+	static int CompZ(int x){
+		int y=CompY(x);
+		return ((y-1)^2+(y-2)^2);
+		
+	}
+
+}

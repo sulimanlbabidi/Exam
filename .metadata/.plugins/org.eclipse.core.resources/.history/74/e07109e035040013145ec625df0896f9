@@ -1,0 +1,22 @@
+package exams;
+import java.util.Scanner;
+public class Exam {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter x : ");
+		int x = input.nextInt();
+		
+		
+		
+		
+
+	}
+	
+	int Compy(int x){
+		return (x*x+2*x+1);
+	}
+
+}

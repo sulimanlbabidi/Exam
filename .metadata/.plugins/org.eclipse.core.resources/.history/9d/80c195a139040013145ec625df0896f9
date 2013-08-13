@@ -1,0 +1,29 @@
+package exams;
+
+public class Exam2 {
+
+	
+	public static void main(String[] args) {
+		
+	}	
+
+}
+
+class circle {
+	private double r;
+	
+	void circle(){r=0;}
+	void circle(double inserted_r){r=inserted_r;}
+	void printCircle(){
+		System.out.print("R = " + r);
+		System.out.print("Circle Area = " + circleArea());
+	}
+	double circleArea(){return r*3.14 ;}
+	double getRadius(){return r;}
+	
+	}
+
+class cone extends circle{
+	private double height;
+	void cone(){super.circle();height=0;}
+}

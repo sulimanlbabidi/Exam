@@ -1,0 +1,18 @@
+package exams;
+import java.util.Scanner;
+public class Exam {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter x : ")
+		int x = input.nextInt();
+		System.out.print(x);
+		
+		
+		
+
+	}
+
+}
