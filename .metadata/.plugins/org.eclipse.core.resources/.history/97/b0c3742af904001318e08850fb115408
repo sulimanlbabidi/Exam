@@ -1,0 +1,25 @@
+package exams;
+
+public class Exam3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+interface Length {
+	void compLength();
+}
+
+class Box implements Length{
+	private double L;
+	private double H;
+	Box(){L=0;H=0;}
+	void compLength(){
+		double peri=L+H;
+		System.out.println("perimeter = " + peri);
+	}
+	
+}
